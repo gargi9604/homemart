@@ -1,6 +1,5 @@
 import React,{useRef, useState} from 'react';
-import {  FaGithub, FaGoogle } from "react-icons/fa";
-import { GithubAuthProvider, GoogleAuthProvider, getAuth, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import { getAuth, sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
 import app from '../../firebase.init';
 import { Link } from 'react-router-dom';
 
@@ -67,69 +66,31 @@ const Login = () => {
         })
      }
 
-
-
-
-
-
-    // loging by another option from google and github 
-    const googleProvider = new GoogleAuthProvider();
-    const githubProvider = new GithubAuthProvider();
-
-    const handleGoogleSingIn = () =>{
-        signInWithPopup(auth, googleProvider)
-        .then(result =>{
-            const loggedUser = result.user;
-            setUser(loggedUser);
-        })
-        .catch(error =>{
-            console.log(error);
-        })
-    }
-    
-    const handleGithubSignIn =() =>{
-        signInWithPopup(auth, githubProvider)
-        .then(result => {
-            const loggedUser = result.user;
-            setUser(loggedUser);
-        })
-        .catch(error =>{
-            console.log(error);
-        })
-    }
    
     return (
         <div className='register'>
             <div className="register-container">
-                
+            <h1>Sign In</h1>
                 <form onSubmit={handleLogin}>
                         <div className="register-fields">
                             
                             <input type="email" placeholder='Email Address' name='email' ref={emailRef} required/>
                             <input type="password" placeholder='Password' name='password' required/>
                         </div>
-                           <button className='continue'>Log In</button>
                         <div className='reset-div'>
-                            <p><small className='reset-description'>Forget Password? Please <button onClick={handleResetPassword} className='Reset-btn'>Reset Password</button></small></p>
-                        </div>
-                        <div className='register-div'>
-                           <p><small className='register-description'>New to this website? Please <Link className='register-link' to='/register'>Register Here</Link></small></p>
+                            <p><small className='reset-description'>Forget Password?<button onClick={handleResetPassword} className='Reset-btn'>Reset Password</button></small></p>
                         </div>
                         <p className="register-login">
-                            
-                            <hr /> 
-                            <p className='option'>or use one of these options</p>
-                            <hr />
-                            <div className='other-btn'>
-                                <button onClick={handleGoogleSingIn} className='google-icon'><FaGoogle  className='icon'/></button>
-                                <button onClick={handleGithubSignIn} className='github-icon'><FaGithub  className='icon'/></button>
-                            </div>
-                            
                             <div className="register-agree">
                                 <input type="checkbox" name="" id="" />
                                 <p>By continuing,I agree to the terms of use & privacy policy</p>
                             </div>
                         </p>
+                           <button className='continue'>Log In</button>
+                        <div className='register-div'>
+                           <p><small className='register-description'>New to this website? Please <Link className='register-link' to='/register'>Register Here</Link></small></p>
+                        </div>
+
                         <p className='error'>{error}</p>
                         <p className='success'>{success}</p>
                 </form>

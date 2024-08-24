@@ -14,16 +14,17 @@ const Navbar = () => {
         <div className='navbar'>
             <div className="nav-logo">
                 <img src={logo} alt="" />
-                <p>MarketZoom</p>
+                <p>HomeMart</p>
             </div>
             <ul className="nav-menu">
                 <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link> {menu==="shop"?<hr/>:<></>}</li>
-                <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none'}} to='/mens'>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
-                <li onClick={()=>{setMenu("womens")}}><Link style={{textDecoration:'none'}} to='/womens'>Women</Link>{menu==="womens"?<hr/>:<></>}</li>
-                <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:'none'}} to='kids'>Kids</Link>{menu==="kids"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("jewellery")}}><Link style={{textDecoration:'none'}} to='/jewellery'>Jewellery</Link>{menu==="jewellery"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("crafts")}}><Link style={{textDecoration:'none'}} to='/crafts'>Crafts</Link>{menu==="crafts"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("decoratives")}}><Link style={{textDecoration:'none'}} to='decoratives'>Decoratives</Link>{menu==="decoratives"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("clothes")}}><Link style={{textDecoration:'none'}} to='clothes'>Clothes</Link>{menu==="clothes"?<hr/>:<></>}</li>
             </ul>
             <div className="nav-login-cart">
-               <Link to='/register'> <button>Register</button></Link>
+               <Link to='/becomeseller'> <button>Become a Seller</button></Link>
                <Link to='/login'> <button>Login</button></Link>
                 <Link to='/cart'><img src={cart_icon} alt="" /></Link> 
                 <div className="nav-cart-count">{getTotalCartItems()}</div>

@@ -1,34 +1,37 @@
-import p1_img from './product_1.png'
-import p2_img from './product_2.png'
-import p3_img from './product_3.png'
-import p4_img from './product_4.png'
+import p1_img from './jewellery1.jpg'
+import p2_img from './jewellery2.jpg'
+import p3_img from './jewellery3.jpg'
+import p4_img from './jewellery4.jpg'
+
+
 
 let data_product = [
   {
-    id:1,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    id:11,
+    name:"Polymer Clay Heart Earrings",
     img:p1_img,
-    new_price:50.00,
-    old_price:80.50,
+    new_price:250.00,
+    old_price:300.0,
   },
-  {id:2,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+  {id:12,
+    name:"Twist & shout Clay Round Earrinngs",
     img:p2_img,
-    new_price:85.00,
-    old_price:120.50,
-  },
-  {id:3,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    img:p3_img,
-    new_price:60.00,
-    old_price:100.50,
-  },
-  {id:4,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    img:p4_img,
     new_price:100.00,
-    old_price:150.00,
+    old_price:120.0,
+  },
+  {id:13,
+    name:"Flower bracelet",
+    img:p3_img,
+    new_price:85.00,
+    old_price:120.0,
+  },
+  {id:14,
+    name:"Flower charm two bracelets",
+    img:p4_img,
+    new_price:200.00,
+    old_price:350.00,
   },
 ];
+
 
 export default data_product;

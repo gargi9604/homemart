@@ -100,7 +100,7 @@
     display: flex;
     align-items: center;
     margin-top:25px;
-    gap: 20px;
+    gap: 10px;
     color: #5c5c5c;
     font-size: 18px;
     font-weight: 500;
@@ -119,10 +119,10 @@
     padding: 20px;
 }
 .reset-div{
-  padding: 20px;
+    text-align: end;
 }
 .register-div{
-    padding: 20px;
+    padding: 10px;
 }
 .reset-description{
   font-size: 18px;
@@ -130,16 +130,15 @@
 }
 .Reset-btn{
     background: transparent;
-    border: 1px solid gray;
-    padding: 10px;
+    padding: 5px;
     font-size: 15px;
     cursor: pointer;
-    border-radius: 5px;
-    
+    border: none;  
+    text-decoration: none;  
 
 }
-.reset-btn:hover{
-    border: 1px solid blue;
+.Reset-btn:hover{
+    text-decoration: underline;
 }
 .register-description{
     font-size: 18px;

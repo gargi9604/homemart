@@ -1,329 +1,366 @@
-import p1_img from "./product_1.png";
-import p2_img from "./product_2.png";
-import p3_img from "./product_3.png";
-import p4_img from "./product_4.png";
-import p5_img from "./product_5.png";
-import p6_img from "./product_6.png";
-import p7_img from "./product_7.png";
-import p8_img from "./product_8.png";
-import p9_img from "./product_9.png";
-import p10_img from "./product_10.png";
-import p11_img from "./product_11.png";
-import p12_img from "./product_12.png";
-import p13_img from "./product_13.png";
-import p14_img from "./product_14.png";
-import p15_img from "./product_15.png";
-import p16_img from "./product_16.png";
-import p17_img from "./product_17.png";
-import p18_img from "./product_18.png";
-import p19_img from "./product_19.png";
-import p20_img from "./product_20.png";
-import p21_img from "./product_21.png";
-import p22_img from "./product_22.png";
-import p23_img from "./product_23.png";
-import p24_img from "./product_24.png";
-import p25_img from "./product_25.png";
-import p26_img from "./product_26.png";
-import p27_img from "./product_27.png";
-import p28_img from "./product_28.png";
-import p29_img from "./product_29.png";
-import p30_img from "./product_30.png";
-import p31_img from "./product_31.png";
-import p32_img from "./product_32.png";
-import p33_img from "./product_33.png";
-import p34_img from "./product_34.png";
-import p35_img from "./product_35.png";
-import p36_img from "./product_36.png";
+import p1_img from "./clothe1.jpg";
+import p2_img from "./clothe2.jpg";
+import p3_img from "./clothe3.jpg";
+import p4_img from "./clothe4.jpg";
+import p5_img from "./clothe5.jpg";
+import p6_img from "./clothe6.jpg";
+import p7_img from "./clothe7.jpg";
+import p8_img from "./clothe8.jpg";
+import p9_img from "./clothe9.jpg";
+import p10_img from "./clothe10.jpg";
+import p11_img from "./jewellery1.jpg";
+import p12_img from "./jewellery2.jpg";
+import p13_img from "./jewellery3.jpg";
+import p14_img from "./jewellery4.jpg";
+import p15_img from "./jewellery5.jpg";
+import p16_img from "./jewellery6.jpg";
+import p17_img from "./jewellery7.jpg";
+import p18_img from "./jewellery8.jpg";
+import p19_img from "./jewellery9.jpg";
+import p20_img from "./jewellery10.jpg";
+import p21_img from "./craft1.jpg";
+import p22_img from "./craft2.jpg";
+import p23_img from "./craft3.jpg";
+import p24_img from "./craft4.jpg";
+import p25_img from "./craft5.jpg";
+import p26_img from "./craft6.jpg";
+import p27_img from "./craft7.jpg";
+import p28_img from "./craft8.jpg";
+import p29_img from "./craft9.jpg";
+import p30_img from "./craft10.jpg";
+import p31_img from "./decortive1.jpg";
+import p32_img from "./decortive2.jpg";
+import p33_img from "./decortive3.jpg";
+import p34_img from "./decortive4.jpg";
+import p35_img from "./decortive5.jpg";
+import p36_img from "./decortive6.jpg";
+import p37_img from "./decortive7.jpg";
+import p38_img from "./decortive8.jpg";
+import p39_img from "./decortive9.jpg";
+import p40_img from "./decortive10.jpg";
 
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Hand Knit Summer Cardigan",
+    category: "clothes",
     image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 500.0,
+    old_price: 800.0,
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Reversible hand block print quilted jacket",
+    category: "clothes",
     image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1200.0,
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Indian Handmade patchwork vintage quilted jacket",
+    category: "clothes",
     image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 600.0,
+    old_price: 1000.0,
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Brown Fuzz Hand Knitted Random Pattern Sweater",
+    category: "clothes",
     image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 700.0,
+    old_price: 1000.0,
   },
   {
     id: 5,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Givenchy Sport Hand Crochet Black & White Strip Sweater",
+    category: "clothes",
     image: p5_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1200.0,
   },
   {
     id: 6,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Shoreline Tie Dye Travel/Lounge Set",
+    category: "clothes",
     image: p6_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1200.0,
   },
   {
     id: 7,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Organic 100% yak wool rib bed socks",
+    category: "clothes",
     image: p7_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 500.0,
+    old_price: 700.0,
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Nordbury Ladies Italian Stretch Plain Cargo Pants",
+    category: "clothes",
     image: p8_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 1200.0,
+    old_price: 1500.0,
   },
   {
     id: 9,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "White and maroon Crochet top",
+    category: "clothes",
     image: p9_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 400.0,
+    old_price: 500.0,
   },
   {
     id: 10,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Blue sunflower cardigan",
+    category: "clothes",
     image: p10_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 450.0,
+    old_price: 600.0,
   },
   {
     id: 11,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Polymer Clay Heart Earrings",
+    category: "jewellery",
     image: p11_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 250.0,
+    old_price: 300.0,
   },
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "women",
+    name: "Twist & shout Clay Round Earrinngs",
+    category: "jewellery",
     image: p12_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 100.0,
+    old_price: 120.0,
   },
   {
     id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Flower bracelet",
+    category: "jewellery",
     image: p13_img,
     new_price: 85.0,
-    old_price: 120.5,
+    old_price: 120.0,
   },
   {
     id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Flower charm two bracelets",
+    category: "jewellery",
     image: p14_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 200.0,
+    old_price: 350.0,
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "White Flower charm necklace",
+    category: "jewellery",
     image: p15_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 100.0,
+    old_price: 120.0,
   },
   {
     id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Nature inspired clay earrings",
+    category: "jewellery",
     image: p16_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 120.0,
+    old_price: 150.0,
   },
   {
     id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Daisy Blue and White beaded flower bracelet",
+    category: "jewellery",
     image: p17_img,
     new_price: 85.0,
-    old_price: 120.5,
+    old_price: 120.0,
   },
   {
     id: 18,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Daisy colurful beaded flower bracelet",
+    category: "jewellery",
     image: p18_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 80.0,
+    old_price: 130.0,
   },
   {
     id: 19,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Micky Mouse Crochet Earrings",
+    category: "jewellery",
     image: p19_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 200.0,
+    old_price: 350.0,
   },
   {
     id: 20,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Mandala Crochet Earrings",
+    category: "jewellery",
     image: p20_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 200.0,
+    old_price: 350.0,
   },
   {
     id: 21,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Cute little Panda, Turtle & Cat made with crochet",
+    category: "crafts",
     image: p21_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 300.0,
+    old_price: 500.0,
   },
   {
     id: 22,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Handmade crochet flowers",
+    category: "crafts",
     image: p22_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 700.0,
+    old_price: 1000.0,
   },
   {
     id: 23,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Dachshund papercraft model",
+    category: "crafts",
     image: p23_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 100.0,
+    old_price: 120.0,
   },
   {
     id: 24,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    category: "men",
+    name: "Plant Embroidery kit",
+    category: "crafts",
     image: p24_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 715.0,
+    old_price: 1050.0,
   },
   {
     id: 25,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Punch Needle starter kit",
+    category: "crafts",
     image: p25_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 1400.0,
+    old_price: 1900.0,
   },
   {
     id: 26,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Llama Felt Craft Kit",
+    category: "crafts",
     image: p26_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1200.0,
   },
   {
     id: 27,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Crochet flower Steering Wheel Cover",
+    category: "crafts",
     image: p27_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1170.0,
   },
   {
     id: 28,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Miniturer Paper Boat Craft",
+    category: "crafts",
     image: p28_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1000.0,
   },
   {
     id: 29,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "50 Mix Plants Wooden Craft",
+    category: "crafts",
     image: p29_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 1430.0,
+    old_price: 1500.0,
   },
   {
     id: 30,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "handcrafted Fire truck made from wood",
+    category: "crafts",
     image: p30_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 1000.0,
+    old_price: 1200.0,
   },
   {
     id: 31,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Leaf-shaped mirror pieces set within pink piping patterns Bottle",
+    category: "decoratives",
     image: p31_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 250.0,
+    old_price: 300.0,
   },
   {
     id: 32,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Metal bicycle wheel frame with floral decorations",
+    category: "decoratives",
     image: p32_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 850.0,
+    old_price: 1000.0,
   },
   {
     id: 33,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Hanging Decorative Vase Arrangement",
+    category: "decoratives",
     image: p33_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 450.0,
+    old_price: 600.0,
   },
   {
     id: 34,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Decorative round MirrorWall ",
+    category: "decoratives",
     image: p34_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 1000.0,
+    old_price: 2000.0,
   },
   {
     id: 35,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Peacock-themed design Decorative Bottle",
+    category: "decoratives",
     image: p35_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 250.0,
+    old_price: 450.5,
   },
   {
     id: 36,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    category: "kid",
+    name: "Decorative Round Mirror and Table",
+    category: "decoratives",
     image: p36_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 2500.0,
+    old_price: 3000.0,
   },
+  {
+    id: 37,
+    name: "Decorative Photo Display",
+    category: "decoratives",
+    image: p37_img,
+    new_price: 400.0,
+    old_price: 600.0,
+  },
+  {
+    id: 38,
+    name: "Multi-cup feeder with colorful cans",
+    category: "decoratives",
+    image: p38_img,
+    new_price: 400.0,
+    old_price: 800.0,
+  },
+  {
+    id: 39,
+    name: "Girl Character-shaped planter ",
+    category: "decoratives",
+    image: p39_img,
+    new_price: 150.0,
+    old_price: 200.0,
+  },
+  {
+    id: 40,
+    name: "Decorative Table Lamp",
+    category: "decoratives",
+    image: p40_img,
+    new_price: 500.0,
+    old_price: 700.0,
+  },
+
 ];
 
 export default all_product;
